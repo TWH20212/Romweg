@@ -1,0 +1,13 @@
+{
+  "id" : "https://TWH20212.github.io/Romweg/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in TWH20212/Romweg project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest3.json",
+    "label" : "Erhard Etzlaub, Das ist der Rom-weg..., Nuremberg, circa 1500."
+  } ]
+}
