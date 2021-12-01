@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest4.json",
   "@type" : "sc:Manifest",
-  "label" : "Erhard Etzlaub, Das ist der Rom-weg..., Nuremberg, circa 1500.",
+  "label" : "Comparison of institutional copies of Erhard Etzlaub's Rom-weg of circa 1500.",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Click to edit description]",
