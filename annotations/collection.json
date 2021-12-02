@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://TWH20212.github.io/Romweg/annotations/annotation.json", "https://TWH20212.github.io/Romweg/annotations/annotationjson" ],
+  "otherContent" : [ "https://TWH20212.github.io/Romweg/annotations/annotation.json", "https://TWH20212.github.io/Romweg/annotations/annotationjson", "https://TWH20212.github.io/Romweg/annotations/annotation" ],
   "@id" : "https://TWH20212.github.io/Romweg/annotations/collection.json",
   "label" : "All annotations loaded in TWH20212/Romweg project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
