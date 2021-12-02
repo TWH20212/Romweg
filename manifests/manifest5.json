@@ -38,7 +38,1485 @@
             "profile" : [ "http://iiif.io/api/image/2/level2.json", {
               "formats" : [ "gif", "jpg", "png", "tif", "webp" ],
               "supports" : [ "profileLinkHeader", "canonicalLinkHeader", "regionSquare", "rotationBy90s", "mirroring", "sizeAboveFull" ]
-            } ]
+            } ]{
+  "type" : "AnnotationPage",
+  "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+  "items" : [ {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "HenmEjY1UYWGpqkF",
+        "properties" : {
+          "pixelCoords" : [ 1528, 2318 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "HenmEjY1UYWGpqkF",
+        "properties" : {
+          "pixelCoords" : [ 1528, 2318 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ -3.227776, 55.9814248 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "uwkGEK243SHaWbfu",
+        "properties" : {
+          "pixelCoords" : [ 1875, 1101 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "uwkGEK243SHaWbfu",
+        "properties" : {
+          "pixelCoords" : [ 1875, 1101 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 2.4221903, 48.8596128 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "2McXUyCVzsrgWCMg",
+        "properties" : {
+          "pixelCoords" : [ 1885, 476 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "2McXUyCVzsrgWCMg",
+        "properties" : {
+          "pixelCoords" : [ 1885, 476 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 3.1238866, 43.1949907 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "ZGvmJuSv41E3dGSD",
+        "properties" : {
+          "pixelCoords" : [ 1782, 1563 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "ZGvmJuSv41E3dGSD",
+        "properties" : {
+          "pixelCoords" : [ 1782, 1563 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 3.1939013, 51.2046522 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "eXTm8gutQbr2CTyt",
+        "properties" : {
+          "pixelCoords" : [ 1445, 1822 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "eXTm8gutQbr2CTyt",
+        "properties" : {
+          "pixelCoords" : [ 1445, 1822 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 6.5956664, 53.224823 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "HzjG23R73tah17a2",
+        "properties" : {
+          "pixelCoords" : [ 1389, 1495 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "HzjG23R73tah17a2",
+        "properties" : {
+          "pixelCoords" : [ 1389, 1495 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 6.9563937, 50.9079805 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "TFvj7wYjdFSW7FnU",
+        "properties" : {
+          "pixelCoords" : [ 1234, 1843 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "TFvj7wYjdFSW7FnU",
+        "properties" : {
+          "pixelCoords" : [ 1234, 1843 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 8.884081, 53.0513004 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "BJkLcF5fQCGLJPBy",
+        "properties" : {
+          "pixelCoords" : [ 487, 2325 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "BJkLcF5fQCGLJPBy",
+        "properties" : {
+          "pixelCoords" : [ 487, 2325 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 12.6309865, 55.6531 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "2Lb88ETWpGDmkSz4",
+        "properties" : {
+          "pixelCoords" : [ 902, 1959 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "2Lb88ETWpGDmkSz4",
+        "properties" : {
+          "pixelCoords" : [ 902, 1959 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 12.1648302, 54.0550819 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "pxQi8a48aDkfpcFU",
+        "properties" : {
+          "pixelCoords" : [ 650, 1882 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "pxQi8a48aDkfpcFU",
+        "properties" : {
+          "pixelCoords" : [ 650, 1882 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 14.5568452, 53.4193488 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "W6xp3Jqrt4LiGWpm",
+        "properties" : {
+          "pixelCoords" : [ 227, 1986 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "W6xp3Jqrt4LiGWpm",
+        "properties" : {
+          "pixelCoords" : [ 227, 1986 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 18.6263709, 54.3322635 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "rbZahGbYNGg3eRtW",
+        "properties" : {
+          "pixelCoords" : [ 696, 1363 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "rbZahGbYNGg3eRtW",
+        "properties" : {
+          "pixelCoords" : [ 696, 1363 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 14.4197303, 50.0553653 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "7Zj6x6p5RCXiJLwN",
+        "properties" : {
+          "pixelCoords" : [ 996, 1287 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "7Zj6x6p5RCXiJLwN",
+        "properties" : {
+          "pixelCoords" : [ 996, 1287 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 11.0803328, 49.4579245 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "7npkr3HhhceFQSek",
+        "properties" : {
+          "pixelCoords" : [ 172, 1373 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "7npkr3HhhceFQSek",
+        "properties" : {
+          "pixelCoords" : [ 172, 1373 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 19.929109, 50.0725041 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "6Q3AGvpg4wgLvbUY",
+        "properties" : {
+          "pixelCoords" : [ 802, 1032 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "6Q3AGvpg4wgLvbUY",
+        "properties" : {
+          "pixelCoords" : [ 802, 1032 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 13.1361495, 47.3837621 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "S16x2ZmvnVa9cAZ2",
+        "properties" : {
+          "pixelCoords" : [ 899, 680 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "S16x2ZmvnVa9cAZ2",
+        "properties" : {
+          "pixelCoords" : [ 899, 680 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 12.3125571, 45.4965834 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "ECbzKXegh9HyUmSF",
+        "properties" : {
+          "pixelCoords" : [ 875, 580 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "ECbzKXegh9HyUmSF",
+        "properties" : {
+          "pixelCoords" : [ 875, 580 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 12.2226632, 44.4438213 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "xdPS6u8Ww3sW6HUN",
+        "properties" : {
+          "pixelCoords" : [ 403, 188 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "xdPS6u8Ww3sW6HUN",
+        "properties" : {
+          "pixelCoords" : [ 403, 188 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 14.2413723, 40.8301539 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "HUBnrxYH7iVPcQib",
+        "properties" : {
+          "pixelCoords" : [ 700, 278 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "HUBnrxYH7iVPcQib",
+        "properties" : {
+          "pixelCoords" : [ 700, 278 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 12.4515558, 41.9159042 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "k5Xu6XMvnPpLf1zw",
+        "properties" : {
+          "pixelCoords" : [ 1251, 610 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "k5Xu6XMvnPpLf1zw",
+        "properties" : {
+          "pixelCoords" : [ 1251, 610 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 7.7583696, 45.0683963 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "yJ7XcSh2Pta36Pw3",
+        "properties" : {
+          "pixelCoords" : [ 1406, 462 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "yJ7XcSh2Pta36Pw3",
+        "properties" : {
+          "pixelCoords" : [ 1406, 462 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 7.4084847, 43.740549 ]
+        }
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "H3C8hNYseDm5aWzX",
+        "properties" : {
+          "pixelCoords" : [ 1303, 895 ]
+        },
+        "geometry" : null
+      } ]
+    }
+  }, {
+    "type" : "Annotation",
+    "@context" : [ "http://geojson.org/geojson-ld/geojson-context.jsonld", "http://iiif.io/api/presentation/3/context.json" ],
+    "motivation" : "georeferencing",
+    "target" : {
+      "type" : "Image",
+      "source" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+      "service" : [ {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+        "type" : "ImageService2"
+      } ],
+      "selector" : {
+        "type" : "SvgSelector",
+        "value" : "<svg width=\"2000\" height=\"2776\"><polygon points=\"0,0 0,2776 2000,2776 2000,0 0,0\" /></svg>"
+      }
+    },
+    "body" : {
+      "type" : "FeatureCollection",
+      "purpose" : "gcp-georeferencing",
+      "transformation" : {
+        "type" : "polynomial",
+        "order" : 0
+      },
+      "features" : [ {
+        "type" : "Feature",
+        "id" : "H3C8hNYseDm5aWzX",
+        "properties" : {
+          "pixelCoords" : [ 1303, 895 ]
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 8.4917461, 47.0736372 ]
+        }
+      } ]
+    }
+  } ]
+}
           },
           "height" : 2776,
           "width" : 2000
