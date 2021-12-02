@@ -13,9 +13,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest4.json",
     "label" : "Erhard Etzlaub, Das ist der Rom-weg..., Nuremberg, circa 1500."
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest5.json",
-    "label" : "Comparing copies of Etzlaub's Rom-weg map (1500)"
   } ]
 }
