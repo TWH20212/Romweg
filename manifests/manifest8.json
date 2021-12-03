@@ -1,0 +1,232 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest8.json",
+  "@type" : "sc:Manifest",
+  "label" : "Comparing copies of Etzlaub's Rom-weg map (1500)",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Erhard Etzlaub's (1455?-1532) 'Rom-weg' of circa 1500 is a single-sheet woodcut map of Central Europe, and one of the earliest European printed maps. It is also the earliest surviving printed road map, supposedly designed to assist pilgrims from northern Europe to reach Rome for the Christian jubilee year of 1500. There are 13 known surviving institutional copies of this map, and all of them are slightly different in their printed impressions. For the first time thanks to IIIF, 7 of these examples can be brought together digitally for comparison and analysis of their likely printing sequence.   ",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "",
+  "sequences" : [ {
+    "@id" : "http://ae3a9719-7b52-49e5-b652-eb236737fbaf",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8802cd4f-27e8-4a23-a9d1-00563bfb4f0e",
+      "@type" : "sc:Canvas",
+      "label" : "Bayerisch Staatsbibliothek (Munich), Rar. 287#Beibd.4",
+      "height" : 2824,
+      "width" : 2035,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://15fc42b1-74f7-4dce-b78f-338327f722a9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00033752_00001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00033752_00001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "gif", "jpg", "png", "tif", "webp" ],
+              "supports" : [ "profileLinkHeader", "canonicalLinkHeader", "regionSquare", "rotationBy90s", "mirroring", "sizeAboveFull" ]
+            } ]
+          },
+          "height" : 2824,
+          "width" : 2035
+        },
+        "on" : "http://8802cd4f-27e8-4a23-a9d1-00563bfb4f0e"
+      } ],
+      "otherContent" : [ {
+        "@id" : "http://localhost:8887/annotations2.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3c6ef2fb-b8e3-4135-abe7-fd1c50adb1af",
+      "@type" : "sc:Canvas",
+      "label" : "Bibliothek Otto Schäfer, Schweinfurt, OS C-1",
+      "height" : 2776,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0b839254-663e-4294-9e1f-4e137dd362c6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00083161_00001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "gif", "jpg", "png", "tif", "webp" ],
+              "supports" : [ "profileLinkHeader", "canonicalLinkHeader", "regionSquare", "rotationBy90s", "mirroring", "sizeAboveFull" ]
+            } ]
+          },
+          "height" : 2776,
+          "width" : 2000
+        },
+        "on" : "http://3c6ef2fb-b8e3-4135-abe7-fd1c50adb1af"
+      } ],
+      "related" : "",
+      "otherContent" : {
+        "@id" : "http://localhost:8887/annotation.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "georeference"
+      }
+    }, {
+      "@id" : "http://9740708f-e4d3-448a-9c50-99e75ba8f1c7",
+      "@type" : "sc:Canvas",
+      "label" : "Bibliothèque nationale de France, GED-7686 (BISRES)",
+      "height" : 5727,
+      "width" : 4221,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fc62e146-3efe-4f3a-9761-187bcd3088eb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55004869m/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b55004869m/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 5727,
+          "width" : 4221
+        },
+        "on" : "http://9740708f-e4d3-448a-9c50-99e75ba8f1c7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://199eeb91-5c08-4c34-acda-093e6eba5791",
+      "@type" : "sc:Canvas",
+      "label" : "British Library, Maps C.2.a.7.(2.).",
+      "height" : 6076,
+      "width" : 5072,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://06c5487e-df87-4543-b2a3-c486cb0a04e9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/bl-romweg-c-07685-01/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/bl-romweg-c-07685-01",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 6076,
+          "width" : 5072
+        },
+        "on" : "http://199eeb91-5c08-4c34-acda-093e6eba5791"
+      } ],
+      "related" : "",
+      "metadata" : [ ]
+    }, {
+      "@id" : "http://7840637f-94f7-4615-a532-d996e0461446",
+      "@type" : "sc:Canvas",
+      "label" : "Bibliothèque nationale de France, GED-7686 (RES)",
+      "height" : 5245,
+      "width" : 3844,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://dae5f3a0-c499-4440-94d1-429f86d25540",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550050743/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b550050743/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 5245,
+          "width" : 3844
+        },
+        "on" : "http://7840637f-94f7-4615-a532-d996e0461446"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2757bf1c-8240-42c6-bc1e-20d4bf41aa03",
+      "@type" : "sc:Canvas",
+      "label" : "Bodleian Libraries, Broxb. 95.24",
+      "height" : 7230,
+      "width" : 5428,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://883c272d-f654-4b03-8d98-c18c8cfaecd7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/03450f20-ac3c-4848-997c-669c4abac854/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/03450f20-ac3c-4848-997c-669c4abac854",
+            "profile" : [ "http://iiif.io/api/image/2/level1", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 4000,
+              "maxHeight" : 4000
+            } ]
+          },
+          "height" : 7230,
+          "width" : 5428
+        },
+        "on" : "http://2757bf1c-8240-42c6-bc1e-20d4bf41aa03"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://593b1271-6c7d-4b68-b536-73e0a21f6588",
+      "@type" : "sc:Canvas",
+      "label" : "Harvard University (Cambridge, MA)",
+      "height" : 7214,
+      "width" : 5798,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2004aaf4-89a1-4df8-8581-7c60eac29832",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ids.lib.harvard.edu/ids/iiif/2655377/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://ids.lib.harvard.edu/ids/iiif/2655377",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "canonicalLinkHeader", "profileLinkHeader", "mirroring", "rotationArbitrary", "regionSquare", "sizeAboveFull" ],
+              "qualities" : [ "default", "bitonal", "gray", "color" ],
+              "formats" : [ "jpg", "tif", "png", "gif", "webp" ]
+            } ]
+          },
+          "height" : 7214,
+          "width" : 5798
+        },
+        "on" : "http://593b1271-6c7d-4b68-b536-73e0a21f6588"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
