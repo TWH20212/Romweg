@@ -17,9 +17,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest8.json",
     "label" : "Comparing copies of Etzlaub's Rom-weg map (1500)"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://TWH20212.github.io/Romweg/manifests/manifest5.json",
-    "label" : "Comparing copies of Etzlaub's Rom-weg map (1500)"
   } ]
 }
